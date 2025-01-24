@@ -125,13 +125,11 @@ button:disabled {
         font-size: 24px;
     }
 
+ 
     .container__imagem-pessoa {
-        display: none;
-    }
-
-    .container__conteudo {
-        display: block;
-        position: inherit;
+        margin-left: auto; /* Alinha a imagem à direita */
+        width: 430px; /* Define a largura da imagem */
+        height: auto; /* Ajusta a altura proporcionalmente */
     }
 
     .container__informacoes {
